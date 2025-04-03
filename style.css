@@ -20,22 +20,29 @@ body {
 }
 
 .header-container h1 {
+    font-family: 'Play', sans-serif;
     padding-left: 1.25rem;
     color: #F5F5F5;
     font-size: 2.25rem;
 }
 
 .about-header h2 {
+    font-family: 'Play', sans-serif;
     padding-left: 1.25rem;
     justify-content: center;
     color: #F5F5F5;
     font-size: 2.25rem;
 }
 
-.about-header p {}
+.about-header p {
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+}
 
 nav {
     padding-right: 1.25rem;
+    font-family: 'Play', sans-serif;
+    ;
 }
 
 .header-container ul {
@@ -51,6 +58,16 @@ nav {
 .header-container a {
     text-decoration: none;
     color: #F5F5F5;
+}
+
+.header-container a:hover {
+    color: #99A5AB;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
 }
 
 /* Background image */
@@ -110,9 +127,10 @@ nav {
 
 
 .service-header {
+    font-family: 'Play', sans-serif;
     margin-top: 0;
     color: #F5F5F5;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     text-align: center;
 }
 
@@ -134,6 +152,7 @@ nav {
     padding: 1rem;
     background-color: rgba(114, 129, 131, .3);
     border-radius: .75rem;
+    font-family: 'Play', sans-serif;
     /* Optional: for card appearance */
     /* border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -172,8 +191,9 @@ nav {
 }
 
 .team-header {
+    font-family: 'Play', sans-serif;
     color: #F5F5F5;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     text-align: center;
 }
 
@@ -185,6 +205,7 @@ nav {
 }
 
 .team-card {
+    font-family: 'Play', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,6 +237,7 @@ nav {
 /* Footer Section */
 
 .footer-container {
+    font-family: 'Play', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
